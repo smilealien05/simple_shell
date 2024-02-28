@@ -7,7 +7,7 @@
  * Return: status (int)
  */
 
-int _execute(char cmd, char **argv, int idx)
+int _execute(char **cmd, char **argv, int idx)
 {
 char *allcmd;
 pid_t child;
